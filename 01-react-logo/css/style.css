@@ -1,0 +1,36 @@
+html {
+  font-size: 10px;
+  background: rgba(0, 0, 0, 0.85) no-repeat; }
+
+body {
+  font-size: 10em; }
+
+.react-logo {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  transform: translateY(-50%);
+  width: 2em;
+  height: .5em;
+  border: solid 0.1em #61DAFB;
+  background: radial-gradient(circle, #61DAFB 48%, transparent 50%) no-repeat center center;
+  background-size: .5em 100%;
+  border-radius: 50%; }
+  .react-logo:before, .react-logo:after {
+    content: "";
+    position: absolute;
+    top: -.1em;
+    border-radius: 50%;
+    border: solid 0.1em #61DAFB;
+    width: 2em;
+    height: .5em; }
+  .react-logo:before {
+    left: -.1em;
+    transform: rotate(60deg); }
+  .react-logo:after {
+    right: -.1em;
+    transform: rotate(-60deg); }
+
+/*# sourceMappingURL=style.css.map */
